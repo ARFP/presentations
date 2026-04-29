@@ -1,0 +1,79 @@
+/* @theme crm-marp-theme */
+
+:root {
+    --body-bg: #F5F5F5;
+    --body-cl: #111111;
+    --crm-primary: #1b296a;
+    --crm-secondary: #ed6840;
+    --crm-red: #cf2d4f;
+    --crm-blue: #7db9da;
+    --crm-yellow: #f6af2e;
+    --crm-green: #488287;
+    --crm-hv-light: #1b296a90;
+    --crm-hv-dark: #48828710;
+    --border-radius: .4rem;
+    --h1-color: var(--crm-yellow);
+    --color: white !important;
+    --heading-strong-color: var(--crm-red) !important;
+    --paginate-color: var(--crm-yellow) !important;
+    --h1-color: var(--crm-yellow) !important;
+    --fgColor-default: var(--crm-secondary) !important;
+    --bgColor-default: var(--crm-primary) !important;
+    --bgColor-muted: var(--crm-hv-light) !important;
+}
+
+header, footer {
+    --header-footer-color: var(--crm-primary);
+    background-color: #1b296a22;
+    padding: .5rem 1rem;
+    text-shadow: 1px 1px 0px var(--crm-secondary);
+}
+
+section {
+    padding: 24px !important;
+    background-position-x: left !important;
+    background-position-y: bottom !important;
+    background-size: 120px !important;
+    background-repeat: no-repeat !important;
+    text-shadow: 0 0 1px white;
+}
+
+
+h2, h3 {
+    color: var(--crm-primary);
+    text-shadow: 1px 1px 0 var(--crm-blue);
+}
+
+h3 {
+    color: var(--crm-blue);
+    text-shadow: 1px 1px 0 var(--crm-primary);
+}
+
+thead {
+    color: var(--crm-primary)
+}
+
+section img {
+    max-width: 90% !important;
+    height: auto;
+    margin-right: 0;
+    margin-left: 60px;
+}
+
+img[alt~="float-right"], img[alt~="float-left"], img[alt~="float-center"] {
+  float: right;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+img[alt~="float-left"] {
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+img[alt~="float-center"] {
+  float:none;
+  margin-right: auto;
+  margin-left: auto;
+}
