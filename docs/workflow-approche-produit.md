@@ -2,16 +2,50 @@
 marp: true
 theme: default
 paginate: true
-# header: 'Présentation Formations : DWWM vs CDA'
-# footer: 'Centre de Réadapatation de Mulhouse'
-# backgroundColor: #1b296a
 backgroundImage: url('./assets/crm-logo-noir.png')
-# link: @import url('prez.css');
+header: 'Inclusion & Sérénité : Approche Produit'
 ---
 
 <style>
     @import url('prez.css');
 </style>
+
+# Coder avec Sérénité
+## Transformer le langage en repère sécurisant
+
+---
+
+## Pourquoi un Lexique ? (Accessibilité)
+Le code peut être intimidant. Le lexique sert de **"traducteur" permanent**.
+
+- **Réduire l'effort mental :** Ne plus chercher "comment nommer".
+- **Clarifier l'intention :** Savoir exactement ce qu'on fabrique.
+- **Éviter les malentendus :** Un mot = Une seule image mentale.
+
+---
+
+## Le Lexique : Notre Point de Repère
+### Exemple E-Commerce
+
+| Mot Officiel | Image Mentale | Utilité |
+| :--- | :---: | :--- |
+| **Produit** | 👟 | Ce que le client voit et achète. |
+| **Stock** | 📦 | Ce qui est rangé dans l'étagère. |
+| **Panier** | 🛒 | La liste temporaire des envies. |
+
+> **Le conseil :** Utilisez des Emojis dans votre lexique pour associer un visuel au mot !
+
+---
+
+## Workflow Inclusif : Pas à Pas
+
+1. **CADRAGE :** On écoute le client (empathie).
+2. **USER STORIES + LEXIQUE :** On définit nos mots "sécurité".
+3. **MAQUETTAGE :** On place nos mots sur le dessin.
+4. **LOGIQUE :** On écrit l'histoire avec nos mots.
+5. **CODE :** On traduit simplement nos mots en anglais/code.
+
+--- 
 
 ## 1. Cadrage : L'Ancre du Projet
 **Objectif :** Transformer un besoin flou en une liste de certitudes.
@@ -22,12 +56,12 @@ backgroundImage: url('./assets/crm-logo-noir.png')
 
 ---
 
-## 2. Cas d'usage : Le Périmètre
+## 2. Cas d'utilisation : Le Périmètre
 **Objectif :** Définir les frontières de ce que l'on va construire.
 
 - **Acteurs :** Identifier qui interagit avec le système.
 - **Actions :** Lister les fonctionnalités (ex: Créer, Lire, Modifier, Supprimer).
-- **Bénéfice :** On évite de s'éparpiller. L'apprenant sait exactement où commence et où s'arrête son travail.
+- **Bénéfice :** On évite de s'éparpiller. On sait exactement où commence et où s'arrête son travail.
 
 ---
 
@@ -68,11 +102,11 @@ backgroundImage: url('./assets/crm-logo-noir.png')
 ---
 
 ## 7. Intégration : La Coquille Visuelle
-**Objectif :** Construire la structure HTML et le style CSS.
+**Objectif :** Implémenter l'interface Utilisateur'.
 
 - **HTML :** Le squelette sémantique et accessible.
 - **CSS :** L'habillage graphique respectant la maquette.
-- **Bénéfice :** Une satisfaction visuelle immédiate. L'étudiant voit son interface prendre vie.
+- **Bénéfice :** Une satisfaction visuelle immédiate. L'UI prendre vie.
 
 ---
 
@@ -99,7 +133,7 @@ backgroundImage: url('./assets/crm-logo-noir.png')
 
 - **Serveur :** Envoyer le code sur un environnement réel.
 - **Pipeline :** Automatisation du passage en production.
-- **Bénéfice :** Une immense fierté pour l'apprenant : "C'est en ligne, je peux le montrer à mes proches."
+- **Bénéfice :** Une immense fierté ;)
 
 ---
 
