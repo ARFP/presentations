@@ -24,7 +24,7 @@
 
 header, footer {
     --header-footer-color: var(--crm-primary);
-    background-color: #1b296a22;
+    background-color: #1b296a11;
     padding: .5rem 1rem;
     text-shadow: 1px 1px 0px var(--crm-secondary);
 }
