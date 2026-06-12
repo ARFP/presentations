@@ -1,74 +1,68 @@
 ---
 marp: true
-theme: default
-paginate: true
+theme: gaia
 _class: lead
-backgroundColor: #f5f5f5
-color: #333
+backgroundColor: #FFFFFF
+color: #1A1A1A
 ---
 
-# Les compétences transverses du Développeur Web
+# Devenir Développeur Web
+## Les Compétences Transverses
 
-**Au-delà du code, de Git et de Docker**
-*Comprendre l'écosystème pour mieux collaborer*
+> Le code ne fait pas tout. Découvrons l'écosystème du web.
 
 ---
 
 ## Sommaire
 
-1. **La culture Web & SEO** (Le contexte)
-2. **L'Accessibilité & l'Éco-conception** (L'éthique et la loi)
-3. **La Sécurité & la RGPD** (La protection)
-4. **La Communication & l'Agilité** (Le travail en équipe)
+- **1 :** Culture Web & SEO
+- **2 :** Accessibilité & Éco-conception
+- **3 :** Sécurité & RGPD
+- **4 :** Communication & Agilité
 
 ---
 
-## 1. La Culture Web & le SEO
+## Module 1 : Culture Web & SEO
 
-Pour qui écrit-on du code ? Pour des utilisateurs et des moteurs de recherche.
+Le code doit être compris par les **humains** ET par les **moteurs de recherche** (Google).
 
-* **Le SEO technique (Référencement naturel) :**
-    * Structure HTML sémantique (`<main>`, `<article>`, `<nav>`).
-    * Vitesse de chargement (Core Web Vitals).
-* **L'hébergement et les domaines :**
-    * Comprendre le fonctionnement d'un DNS.
-    * Différence entre HTTP et HTTPS (Certificats SSL).
+### En Pratique
+- **HTML Sémantique :** Utiliser les bonnes balises (`<nav>`, `<main>`) pour structurer la page.
+- **Performance :** Un site qui charge vite ($< 2$ secondes) est mieux classé.
+- **Réseau :** Comprendre le lien entre un **Nom de domaine** (le nom) et l'**Hébergement** (l'adresse physique).
 
 ---
 
-## 2. Accessibilité (numérique) & Éco-conception
+## Module 2 : Accessibilité & Éco-conception
 
-Le web doit être durable et ouvert à tous.
+Créer un web **éthique**, accessible à tous et respectueux de la planète.
 
-### Accessibilité (RGAA / WCAG)
-* Rendre le site utilisable pour les personnes en situation de handicap (visuel, moteur, cognitif).
-* *Exemple :* Renseigner les attributs `alt` des images, gérer le contraste des couleurs.
-
-### Éco-conception
-* Réduire l'impact écologique des lignes de code.
-* *Exemple :* Nettoyer le code inutile, optimiser le poids des images.
-
----
-
-## 3. Sécurité & RGPD
-
-Un bon code est un code sûr qui respecte la loi.
-
-* **Sécurité de base (OWASP) :**
-    * Savoir identifier et éviter les pièges simples (Injections SQL, failles XSS).
-    * Ne jamais faire confiance aux données saisies par l'utilisateur.
-* **RGPD (Données personnelles) :**
-    * Demander le consentement avant de stocker des cookies.
-    * Sécuriser et limiter la collecte des données privées au strict minimum.
+### En Pratique
+- **Accessibilité (Handicap) :** 
+  - Ajouter des textes alternatifs sur les images (`alt="description"`).
+  - Permettre la navigation uniquement au clavier.
+- **Éco-conception :** 
+  - Réduire la taille des images pour consommer moins d'énergie.
 
 ---
 
-## 4. Communication & Gestion de projet
+## Module 3 : Sécurité & RGPD (La Loi)
 
-Le code ne représente souvent que la moitié du travail d'un développeur.
+Protéger l'application contre les attaques et respecter la vie privée des utilisateurs.
+
+### En Pratique
+- **Sécurité :** Ne jamais faire confiance aux formulaires remplis par les utilisateurs (danger d'injection de code).
+- **RGPD :**
+  - Demander l'autorisation avant de mettre des cookies.
+  - Stocker uniquement les données strictement nécessaires.
+
+---
+
+## Module 4 : Communication & Agilité
+
+Travailler en équipe avec une méthodologie claire.
 
 ```mermaid
 graph LR
-    A[Client / PO] <--> B(Développeur)
-    B <--> C[Membres de l'équipe]
-```
+    Développeur -- 1. Reformule --> Besoin_Client
+    Besoin_Client -- 2. Valide --> Développeur
